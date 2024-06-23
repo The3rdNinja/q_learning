@@ -51,7 +51,7 @@ def calculate_reward(new_state):
     if 395 <= new_state <= 405:
         return 200
     elif 350 <= new_state <= 450:
-        return -1
+        return 10
     elif 200 <= new_state <= 600:
         return -5
     else:
